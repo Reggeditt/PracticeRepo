@@ -11,3 +11,80 @@ body {
 h1 {
   color: blueviolet;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: 200px auto;
+  background-color: blue;
+}
+
+.grid-item {
+  background-color: blueviolet;
+  height: 150px;
+  width: 150px;
+}
+
+.floats {
+  background-color: aquamarine;
+  height: 1000px;
+  width: 1000px;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  opacity: 0.7;
+  /* float: right */
+}
+.one {
+  background-color: pink;
+  float: right;
+}
+.two {
+  background-color: green;
+  float: right;
+}
+.three {
+  background-color: yellow;
+  float: right;
+  clear:right
+}
+.four {
+  background-color: greenyellow;
+  float: left;
+  clear: left;
+}
+.five {
+  background-color: brown;
+  float: right;
+  clear: right;
+}
+.six {
+  background-color: burlywood;
+  float: right;
+}
+.seven {
+  background-color: aliceblue;
+  float: left;
+}
+.eight {
+  background-color: cadetblue;
+  float: left;
+}
+.nine {
+  background-color: cyan;
+  float: left;
+}
+.ten {
+  background-color: crimson;
+}
+.eleven {
+  background-color: silver;
+}
+.twelve {
+  background-color: cornsilk;
+}
+.thirteen {
+  background-color: bisque;
+}
